@@ -1,0 +1,8 @@
+
+1- Como nós não temos Usernames no registo (os utilizadores registam-se e logam-se através do email), os nossos utilizadores predefinidos
+em vez de serem : Admin - Esmad_2122 / User - Esmad_2122, são: admin@esmad.ipp.pt - Esmad_2122 / user@esmad.ipp.pt - Esmad_2122 .
+
+2- Colocar faculdade no registo e mudar os cursos consoante a mesma. Só vamos ter ESMAD mas fazemos assim para preparar o website para 
+colocar mais faculdades e cursos
+
+3- Só se pode entrar na pagina do admin se estiver logado. Falta só deixar entrar se tiver cargo de admin
