@@ -198,9 +198,7 @@ export default {
         this.loadingUser = true;
         this.users = await this.getUsers();
         this.loadingUser = false;
-        this.getProjectsData();
         await this.getDataEspecificProject();
-        this.getProjectImagesData();
       } catch (err) {
         this.$swal("Erro ao requisitar utilizadores");
         console.log(err);
@@ -219,8 +217,10 @@ export default {
     async loadingSpinner() {
 
       this.$vs.loading ({color:'#F17941'})
+      await this.getProjectsData();
       await this.getDataEspecificProject()
       await this.getProjectFavsData()
+      await this.getProjectImagesData();
 
       setTimeout( ()=> {
         this.$vs.loading.close()
@@ -281,6 +281,7 @@ export default {
       this.thisProjectImages = this.allProjectImages.filter(
         (image) => image.projetoID == this.$route.params.id
       );
+      console.log(this.thisProjectImages)
     },
 
     async getProjectFavsData() {
