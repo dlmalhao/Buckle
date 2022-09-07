@@ -36,6 +36,8 @@ The last one provides a space that only Student's council members can post. It's
 
 Finally it also have a customizable profile page so that the students can save liked posts and projects.
 
+It was made in Vue JS with a self-made API (heroku) and a MySQL data-base.
+
 
 ### Credits
 
