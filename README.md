@@ -18,6 +18,7 @@ npm run build
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+
 ### Description
 Buckle is a full website designed to help and to connect all students of a certain college.
 It counts with 3 main sections:
@@ -34,6 +35,7 @@ The last one provides a space that only Student's council members can post. It's
 
 
 Finally it also have a customizable profile page so that the students can save liked posts and projects.
+
 
 ### Credits
 
