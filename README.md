@@ -39,7 +39,7 @@ Finally it also have a customizable profile page so that the students can save l
 
 ### Credits
 
-- Diogo Almeida (@DiogoAlmeida11)
-- Diogo Gomes (@DiogoGomess)
-- Inês Reis (@inesofiareis)
+- Diogo Almeida (https://github.com/DiogoAlmeida11)
+- Diogo Gomes (https://github.com/DiogoGomess)
+- Inês Reis (https://github.com/inesofiareis)
 
